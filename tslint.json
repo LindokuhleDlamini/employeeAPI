@@ -1,0 +1,49 @@
+{
+	"rules": {
+
+		"curly": [
+			true,
+			"ignore-same-line"
+		],
+		"trailing-comma": false,
+		"eofline": false,
+		"quotemark": [
+			true,
+			"single"
+		],
+		"indent": [
+			true,
+			"spaces",
+			2
+		],
+		"max-line-length": [
+			true,
+			220
+		],
+		"object-literal-sort-keys": false,
+		"arrow-parens": false,
+		"array-type": false,
+		"only-arrow-functions": false,
+		"ordered-imports": false,
+		"callable-types": false,
+		"member-access": false,
+		"no-empty-interface": false,
+		"radix": false,
+		"no-var-requires": false,
+		"no-empty": false,
+		"variable-name": [
+			true,
+			"ban-keywords",
+			"check-format",
+			"allow-leading-underscore",
+			"allow-pascal-case"
+		]
+	},
+	"jsRules": {
+
+		"curly": true
+	},
+	"rulesDirectory": [
+
+	]
+}
